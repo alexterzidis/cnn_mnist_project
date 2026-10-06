@@ -48,9 +48,9 @@ The first model mostly confused visually similar digits: 4 with 9 and 2 with 8. 
 
 **What worked well:** The model reached a high accuracy from the very first attempt.
 
-**What was difficult:** The learning curves showed signs of overfitting in the later epochs, which made me think about how to interpret the results. I was also puzzled that Model 1 trained for 13 epochs the first time and 14 the second time I ran it, even though the settings were the same.
+**What was difficult:** The learning curves showed signs of overfitting in the later epochs, which made me think about how to interpret the results. I was also confused that Model 1 trained for 13 epochs the first time and 14 the second time I ran it,even though the settings were the same.
 
-**What could be improved:** With more time, I would try Option B, raising the Dropout rate from 0.3 to 0.5, to see whether stronger regularisation reduces the overfitting I noticed in the learning curves.
+**What could be improved:** With more time, I would try Option B, raising the Dropout rate from 0.3 to 0.5, to see if stronger regularisation reduces the overfitting I noticed in the learning curves.
 
 ## Files
 
